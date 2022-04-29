@@ -1,0 +1,21 @@
+.nested-dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(240, 2%, 79%);
+  border-radius: 12px;
+}
+
+.nested-dd-btn {
+  display: block;
+  text-align: center;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: hsl(207, 13%, 34%);
+  padding: 14px 16px;
+}
+
+.nested-dd-btn:hover {
+  color: hsl(240, 10%, 16%);
+}

@@ -1,0 +1,43 @@
+.intro {
+  background-image: url('../../assets//bg-pattern-intro-desktop.svg'),
+    linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  background-repeat: no-repeat;
+  background-position: top 50% left 27%;
+  height: 75vh;
+  margin-bottom: 5em;
+  overflow-y: auto;
+  border-bottom-left-radius: 5em;
+}
+
+.intro-header {
+  font-size: 48px;
+}
+
+.intro-header,
+.intro-para {
+  margin-top: 2em;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+}
+
+.intro-para {
+  margin-bottom: 2em;
+}
+
+.btn-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+  .intro {
+    padding-bottom: 2em;
+    background-image: url('../../assets//bg-pattern-intro-mobile.svg'),
+      linear-gradient(
+        to left,
+        hsl(353, 100%, 62%, 0.9),
+        hsla(13, 100%, 72%, 0.9)
+      );
+  }
+}

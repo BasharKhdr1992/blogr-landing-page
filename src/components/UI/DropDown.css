@@ -1,0 +1,35 @@
+.mobile-dropdown {
+  width: 80%;
+  position: absolute;
+  height: max-content;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 16px;
+  top: 10%;
+  left: 10%;
+  background-color: hsl(0, 0%, 98%);
+}
+
+.link-icon {
+  margin-left: 1em;
+}
+
+.mobile-dropdown .dd-list {
+  list-style-type: none;
+}
+
+.mobile-dropdown .dd-link {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 14px 16px;
+  cursor: pointer;
+  color: hsl(208, 49%, 24%);
+  background: transparent;
+  border: none;
+}
+
+.mobile-dropdown .dd-link:hover {
+  color: hsl(0, 0%, 75%);
+}

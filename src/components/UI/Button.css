@@ -1,0 +1,44 @@
+.btn-primary {
+  border: none;
+  border-radius: 24px;
+  padding: 14px 24px;
+  margin-right: 2em;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(13, 100%, 72%);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  color: hsl(0, 0%, 100%);
+  border-radius: 24px;
+  padding: 14px 24px;
+  box-sizing: border-box;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid hsl(0, 0%, 100%);
+  background-color: hsl(356, 100%, 66%);
+}
+
+.btn-primary:hover {
+  background-color: hsl(355, 100%, 74%);
+  color: hsl(0, 0%, 100%);
+}
+
+.btn-secondary:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(356, 100%, 66%);
+}
+
+.btn-gradient {
+  background-image: linear-gradient(
+    to right,
+    hsl(13, 100%, 72%),
+    hsl(353, 100%, 62%)
+  );
+}
+
+.btn-gradient:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(356, 100%, 66%);
+}
